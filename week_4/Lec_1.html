@@ -1,0 +1,86 @@
+<!-- Question 1: Display Raw HTML Symbols -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display Special Characters</title>
+</head>
+<body>
+  <h2>Display Raw HTML Symbols</h2>
+  <p>&lt; This is a less-than sign</p>
+  <p>&gt; This is a greater-than sign</p>
+  <p>&amp; This is an ampersand</p>
+  <p>&quot; This is a double quote</p>
+</body>
+</html>
+
+
+<!-- Question 2: Add a Favicon to a Web Page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Favicon Example</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <h2>Favicon Integration</h2>
+  <p>Check your browser tab to see the favicon.</p>
+</body>
+</html>
+
+<!-- Question 3: Use the <pre>, <code>, and <kbd> Tags -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Code Formatting Example</title>
+</head>
+<body>
+  <h2>Code Formatting and Keyboard Input</h2>
+
+  <h3>Preformatted Code Block:</h3>
+  <pre><code>
+function greet() {
+  console.log("Hello, world!");
+}
+greet();
+  </code></pre>
+
+  <h3>Keyboard Shortcut Example:</h3>
+  <p>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save the file.</p>
+</body>
+</html>
+
+
+<!-- Question 4: Embed a Responsive YouTube Video using <iframe> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive YouTube Video</title>
+  <style>
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      height: 0;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <h2>Responsive Video Embed</h2>
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+  </div>
+</body>
+</html>
