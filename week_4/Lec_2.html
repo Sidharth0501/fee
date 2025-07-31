@@ -1,0 +1,54 @@
+<!-- Question 1: Create a form with an input field for email -->
+
+<form>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <button type="submit">Submit</button>
+</form>
+
+
+<!-- Question 2: Create a form to collect user’s age (18 to 60) -->
+
+<form>
+  <label for="age">Age (18-60):</label>
+  <input type="number" id="age" name="age" min="18" max="60" required>
+  <button type="submit">Submit</button>
+</form>
+
+
+
+<!-- Question 3: Create a password field (required, minlength 8) -->
+
+<form>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required minlength="8">
+  <button type="submit">Submit</button>
+</form>
+
+
+
+<!-- Question 4: Create a complete user registration form -->
+
+<form>
+  <label for="fullname">Full Name:</label>
+  <input type="text" id="fullname" name="fullname" required><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required minlength="8"><br><br>
+
+  <label for="confirm">Confirm Password:</label>
+  <input type="password" id="confirm" name="confirm" required><br><br>
+
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age" min="18" max="99" required><br><br>
+
+  <label>
+    <input type="checkbox" name="terms" required>
+    I accept the terms and conditions
+  </label><br><br>
+
+  <button type="submit">Register</button>
+</form>
