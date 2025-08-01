@@ -1,0 +1,313 @@
+<!-- Web Practice 1: My Travel Blog with CSS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Travel Blog</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #008080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    section, footer {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    blockquote {
+      font-style: italic;
+      color: #555;
+      margin: 20px 0;
+      padding-left: 20px;
+      border-left: 4px solid #008080;
+    }
+
+    form input, select, button {
+      display: block;
+      margin: 10px 0;
+      padding: 8px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    footer {
+      background-color: #008080;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Wander With Me</h1>
+    <nav>
+      <a href="#intro">About</a>
+      <a href="#destinations">Top Destinations</a>
+      <a href="#video">Trip Video</a>
+      <a href="#form">Join Us</a>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <p>Welcome to my travel blog! I share stories, tips, and hidden gems from my adventures around the world.</p>
+    <img src="travel.jpg" alt="Traveler exploring a mountain view">
+  </section>
+
+  <section id="destinations">
+    <h2>Top 3 Travel Destinations</h2>
+    <table>
+      <tr>
+        <th>Country</th>
+        <th>Best Time to Visit</th>
+        <th>Language</th>
+      </tr>
+      <tr>
+        <td>Russia</td>
+        <td>March - May</td>
+        <td>Russian</td>
+      </tr>
+      <tr>
+        <td>USA</td>
+        <td>April - June</td>
+        <td>English</td>
+      </tr>
+      <tr>
+        <td>India</td>
+        <td>June - September</td>
+        <td>English / Hindi</td>
+      </tr>
+    </table>
+  </section>
+
+  <blockquote>
+    “The world is a book and those who do not travel read only one page.” – Saint Augustine
+  </blockquote>
+
+  <section id="video">
+    <h2>My Trip to Iceland</h2>
+    <video controls width="100%" poster="iceland-trip.jpg">
+      <source src="iceland-trip.mp4" type="video/mp4">
+      Your browser does not support this video.
+    </video>
+  </section>
+
+  <audio autoplay loop muted>
+    <source src="background-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <section id="form">
+    <h2>Join the Journey</h2>
+    <form>
+      <label>Full Name:</label>
+      <input type="text" required>
+
+      <label>Destination Interest:</label>
+      <select>
+        <option value="japan">Russia</option>
+        <option value="italy">USA</option>
+        <option value="canada">India</option>
+      </select>
+
+      <label>Type of Traveler:</label>
+      <label><input type="checkbox"> Solo</label>
+      <label><input type="checkbox"> Family</label>
+      <label><input type="checkbox"> Luxury</label>
+
+      <label>Email ID:</label>
+      <input type="email" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Travel Blog. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+
+<!-- Web Practice 2: Resume + Portfolio -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sidharth – Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    header img {
+      border-radius: 50%;
+      margin-top: 10px;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    h3 {
+      border-bottom: 2px solid #0077b6;
+      padding-bottom: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    form input, textarea, button {
+      width: 100%;
+      max-width: 600px;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    iframe, object, audio {
+      width: 100%;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sidharth</h1>
+    <h2>Frontend Developer</h2>
+    <img src="profile.jpg" alt="Sidharth Profile Picture" width="120">
+  </header>
+
+  <section>
+    <h3>Career Summary</h3>
+    <p>I am a passionate frontend developer with 3+ years of experience in responsive and accessible design using HTML5, CSS3, and JavaScript.</p>
+  </section>
+
+  <section>
+    <h3>Skills</h3>
+    <table>
+      <tr>
+        <th>Skill</th>
+        <th>Experience Level</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Advanced</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Advanced</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Intermediate</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h3>Self Introduction</h3>
+    <audio controls>
+      <source src="intro.mp3" type="audio/mpeg">
+    </audio>
+    <h4>Video Portfolio</h4>
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" height="315" allowfullscreen></iframe>
+  </section>
+
+  <section>
+    <h3>Certifications</h3>
+    <ul>
+      <li>Responsive Web Design – FreeCodeCamp</li>
+      <li>JavaScript Essentials – Coursera</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Profiles</h3>
+    <iframe src="https://github.com/username" height="300" title="GitHub Profile"></iframe>
+  </section>
+
+  <section>
+    <h3>Download Resume</h3>
+    <object data="resume.pdf" type="application/pdf" height="600">
+      <p>Can't display resume. <a href="resume.pdf">Download it here</a>.</p>
+    </object>
+  </section>
+
+  <section>
+    <h3>Contact Me</h3>
+    <form>
+      <label>Name: <input type="text" required></label>
+      <label>Email: <input type="email" required></label>
+      <label>Phone: <input type="tel"></label>
+      <label>Subject: <input type="text"></label>
+      <label>Message:<textarea rows="5" required></textarea></label>
+      <button type="submit">Send 📩</button>
+    </form>
+  </section>
+
+</body>
+</html>
+
+
